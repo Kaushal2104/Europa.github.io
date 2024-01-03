@@ -1,0 +1,257 @@
+/* ==================================== header ================================== */
+.assist-btn {
+  padding: 8px 25px;
+  font-size: 12px;
+  width: 186px;
+  height: 45px;
+  background-color: #f8b309;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+.en-btn {
+  font-size: 10px;
+  background-color: transparent;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.nav-link:active {
+  color: #f8b309;
+}
+
+.active {
+  color: #f8b309 !important;
+}
+
+.cp-logo {
+  background-color: #ffffff;
+  border-radius: 5px 30px 30px 5px;
+  padding: 10px 70px 10px 5px;
+  margin-top: 80px;
+}
+
+.world-ct {
+  background-color: transparent;
+  /* color: white; */
+}
+.nav-link {
+  font-size: 10px;
+}
+.cursor-p {
+  cursor: pointer;
+}
+
+/* ========================================= left box ============================= */
+
+.left-box {
+  background-color: #fdcf00;
+}
+
+.house-top {
+  position: relative;
+}
+.house-top::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 90px;
+  background-image: url(logo/house-top.svg);
+  width: 84px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+/* ==================================== bulding data button ===================================== */
+.stage {
+  list-style-type: none;
+  padding: 10px 0;
+  width: 100%;
+}
+.stage-item {
+  padding: 10px 0;
+  position: relative;
+  padding-left: 16px;
+  width: 100%;
+}
+.stage-item::before {
+  content: "";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 56%;
+  left: 19px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.stage-item:hover {
+  background-color: #fedc00;
+}
+.active-tab {
+  background-color: #fedc00;
+}
+.active-tab .stage-link {
+  color: #231f20;
+}
+.stage-number {
+  position: relative;
+  margin-right: 15px;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fe9b00;
+}
+.stage-link {
+  color: #231f2050;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.stage-item:hover .stage-link {
+  color: #231f20;
+}
+
+/* ========================================== book a call ================== */
+
+.book-btn {
+  margin-top: 240px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: start;
+  padding: 16px;
+  color: #fe9b00;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+
+/* =================================== right box ================================================= */
+.pl-38 {
+  padding-left: 38px;
+}
+.calculator-row {
+  margin-top: 40px;
+}
+.mb-89 {
+  margin-bottom: 89px;
+}
+
+/* ------------------------------- form -------------------------------- */
+.label-form {
+  font-size: 12px;
+  font-weight: 650;
+  margin-bottom: 7px;
+}
+.inp-form {
+  width: 100%;
+  background-color: #f9fbfc;
+  border: none;
+  border-bottom: 1px solid #bfd4e4;
+  outline: none;
+}
+.dw-up {
+  position: relative;
+}
+.dw-up::before {
+  content: "";
+  position: absolute;
+  background-image: url(icon/down-arow.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
+  right: 17px;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
+.dw-up::after {
+  content: "";
+  position: absolute;
+  background-image: url(icon/up-arrow.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
+  right: 9px;
+  top: 52%;
+  transform: translate(-50%, -50%);
+}
+.dw-up-big {
+  position: relative;
+}
+.dw-up-big::before {
+  content: "";
+  position: absolute;
+  background-image: url(icon/down-arow.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
+  right: 17px;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+.dw-up-big::after {
+  content: "";
+  position: absolute;
+  background-image: url(icon/up-arrow.svg);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
+  right: 9px;
+  bottom: -0%;
+  transform: translate(-50%, -50%);
+}
+
+/* ------------------------------ next btn------------------------------ */
+.btn-next {
+  border: none;
+  font-size: 11px;
+  background-color: #f59c11;
+  color: white;
+  font-weight: 700;
+  border-radius: 23px;
+  width: 204px;
+  height: 50px;
+}
+.btn-low {
+  background-color: #fdcf00;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 6px 6px 0 6px;
+}
+.mt-220 {
+  margin-top: 220px;
+}
+.last-row {
+  margin-top: 235px;
+}
+/* ============================== media quary=============================== */
+@media screen and (max-width: 768px) {
+  .book-btn {
+    margin-top: 15px;
+  }
+  .pl-md-o {
+    padding-left: 0;
+  }
+  .mb-md-md-0 {
+    margin-bottom: 0;
+  }
+  .mt-md-00 {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 675px) {
+  .mt-42 {
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .last-row {
+    margin-top: 0;
+  }
+}

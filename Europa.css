@@ -1,0 +1,250 @@
+body {
+  scroll-behavior: smooth;
+}
+.btn-bg-yellow-br {
+  background-color: #fdb200;
+  color: white;
+  border-radius: 30px;
+  padding: 9px 25px;
+  border: none;
+}
+
+.nav-link {
+  font-size: 10px;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1000;
+}
+/* ================================= header =================================== */
+.assist-btn {
+  padding: 8px 25px;
+  font-size: 12px;
+  width: 186px;
+  height: 45px;
+  background-color: #f8b309;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+.en-btn {
+  font-size: 10px;
+  background-color: transparent;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.nav-link:active {
+  color: #f8b309;
+}
+
+.active {
+  color: #f8b309 !important;
+}
+
+.cp-logo {
+  background-color: #ffffff;
+  border-radius: 5px 30px 30px 5px;
+  padding: 10px 70px 10px 5px;
+  margin-top: 80px;
+}
+
+.world-ct {
+  background-color: transparent;
+  /* color: white; */
+}
+
+/* ============================================= section how-much  ================================= */
+.how-much {
+  border: none;
+  border-radius: 0 0 20px 0;
+  border-top: transparent;
+  /* border-bottom: 1px solid black; */
+  /* border-right: 1px solid black; */
+  border-left: 8px solid #f8b309;
+}
+
+/* @media screen and(max-width: 0px) {
+  .how-much {
+    border: none;
+  }
+} */
+
+/* ================================== card-container================================ */
+
+.card-container img {
+  width: 100px;
+}
+
+.plan-card {
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+}
+
+.btn-plan {
+  background-color: #f8b309;
+  color: white;
+  font-weight: 600;
+  /* border-radius: 30px; */
+  padding: 8px 15px;
+  border: none;
+  margin: auto;
+  width: 100%;
+}
+
+.border-yellow {
+  border-bottom: 3px solid #f8b309;
+}
+
+.border-left-yellow {
+  border-left: 7px solid #f8b309;
+  border-radius: 0 0 30px 0;
+}
+
+/* ========================================= regestore ================================= */
+.email-input::placeholder {
+  padding-left: 0;
+}
+
+.email-input {
+  margin-right: 20px;
+  padding: 9px 20px;
+  border: none;
+  outline: 1px solid #ffffff;
+  /* outline-color: #ffffff; */
+  /* height: 58px; */
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.send-btn {
+  border: none;
+  width: 140px;
+  color: #f8b309;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.contact-us-btn {
+  background-color: #f8b309;
+  width: 186px;
+  height: 58px;
+  border: none;
+  padding: 0px 20px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.carosar-text {
+  position: absolute;
+  bottom: 103px;
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 0;
+  box-shadow: 0px 13.4175px 15.6538px rgba(18, 38, 53, 0.5);
+  width: 442px;
+  height: 107px;
+  border: none;
+  border-left: 6px solid #f8b309;
+}
+
+@media screen and (max-width: 550px) {
+  .email-input {
+    width: 100%;
+  }
+
+  .email-input:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .carosar-text {
+    position: absolute;
+    width: 279px;
+    background-color: #ffffff80;
+    backdrop-filter: blur(1.9px);
+    border-left: 6px solid #f8b309;
+    left: 0;
+    color: #4b4b4a;
+    bottom: 50px;
+    border-radius: 0 30px 30px 0;
+    /* outline: 2px solid #ffffff90; */
+  }
+}
+
+.select-grp {
+  position: relative;
+  width: 162px;
+  height: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: black;
+  padding: 0px 10px;
+  background-color: #bfd4e415;
+  border: none;
+  border-bottom: 2px solid #bfd4e4;
+  font-size: 12px;
+  font-weight: medium;
+  outline: none;
+}
+
+.select-grp-arrow {
+  position: relative;
+}
+
+.select-grp-arrow::after {
+  position: absolute;
+  content: "";
+  background-image: url(icon/downarrow-select.svg);
+  width: 10px;
+  height: 10px;
+  z-index: 50;
+  right: 13px;
+  pointer-events: none;
+  top: 50%;
+  transform: translate(-50% -50%);
+}
+
+.btn-pay {
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #a9bbc9;
+  background-color: transparent;
+}
+.active-btn-pay {
+  border-bottom: 4px solid #f8b309;
+}
+
+/* .btn-pay:focus {
+  border-bottom: 4px solid #f8b309;
+} */
+
+.zoom {
+  transition: all 0.5s;
+}
+
+.zoom:hover {
+  z-index: 2;
+  transform: scale(1.4);
+}
+.diva {
+  display: block;
+}
+.divb {
+  display: none;
+}
